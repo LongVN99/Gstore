@@ -1,6 +1,7 @@
 <p id="top"></p>
 
-# MARSHAL UNISEX COLLECTIBLES WEBSITE
+# Gstore
+## Code Institute: Milestone Project 4 - Jamie Rolls
 
 [View live deployment of site here]()
 
