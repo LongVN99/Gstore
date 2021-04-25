@@ -10,6 +10,22 @@ body {
     font-family: 'Trebuchet MS';
 }
 
+.display-4 {
+    font-size: 2.5rem !important;
+}
+
+.light-box {
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 20px;
+    opacity: 0.95;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 300px;
+}
+
 .navbar-light .navbar-toggler {
     border-color: white;
 }
@@ -38,10 +54,14 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
+.nav-item .logo-font {
     font-size: 1.2em;
 }
+
+.logo-font {
+    text-transform: uppercase;
+}
+
 
 .web-logo {
     text-transform: uppercase;
@@ -67,7 +87,6 @@ body {
     padding-bottom: 3px;
 }
 
-/* Colours */
 .btn-black {
     background: black;
     color: white;
@@ -97,19 +116,29 @@ body {
 
 .bg-dark {
     background-color: #363E46 !important;
+
+}
+.bg-black {
+    background: #000 !important;
 }
 
-.bg-light {
-    background-color: bisque !important;
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
-    .container {
-        max-width: 80%;
-    }
+  .container {
+    max-width: 80%;
+  }
 }
 
 /* fixed top navbar only on medium and up */
@@ -127,18 +156,13 @@ body {
     }
 }
 
-.display-4 {
-    font-size: 2.5rem !important;
-}
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
 
-.light-box {
-    background-color: whitesmoke;
-    border: 1px solid gray;
-    border-radius: 25px;
-    padding: 20px;
-    opacity: 0.95;
-    margin-top: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 300px;
+    body {
+        height: calc(100vh - 116px);
+    }
 }
