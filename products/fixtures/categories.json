@@ -1,0 +1,58 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "logo_design",
+      "friendly_name": "Logo Design"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "brand_style",
+      "friendly_name": "Brand Style"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "game_art",
+      "friendly_name": "Game Art"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "graphics_streamers",
+      "friendly_name": "Graphics for Steamers"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "web_mobile_design",
+      "friendly_name": "Web Mobile Design"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "social_media_design",
+      "friendly_name": "Social Media Design"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+      "name": "email_design",
+      "friendly_name": "Email Design"
+    }
+  }
+]
