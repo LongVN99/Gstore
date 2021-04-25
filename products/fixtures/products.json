@@ -1,16 +1,141 @@
-[
-  {
-    "pk": 1,
-    "model": "products.product",
-    "fields": {
-      "sku": "pp5001340155",
-      "name": "Arizona Original Bootcut Jeans",
-      "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
-      "price": 53.99,
-      "category": 6,
-      "rating": 4.6,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0709201205510679M.jpg"
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Luchaacatto",
+            "description": "Your logo is the first thing a potential customer sees, so you want to make sure it’s worthy of your business, your clients, and yourself.",
+            "price": 53.99,
+            "category": 1,
+            "rating": 4.9,
+            "image_url": "https://fiverr-res.cloudinary.com/images/t_smartwm/t_main1,q_auto,f_auto,q_auto,f_auto/attachments/delivery/asset/05f27ce12f2adbed7c1b7fb28e9d0a3b-1604062035/Thai%20Table_3_Mesa%20de%20trabajo%201%20copia%209/design-a-unique-hand-lettering-logo.jpg",
+            "image": "A1.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600425",
+            "name": "Kseniapo",
+            "description": "I'm a graphic designer with over 9 years of experience. I've finished career in the agency as a creative director to start my independent freelance journey. I believe the brand ID is not only a visual image but a powerful symbol that helps the company to build a strong inner team and great relations with clients.",
+            "price": 58.99,
+            "category": 1,
+            "rating": 4.8,
+            "image_url": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/159422979/original/37e1982c577a78794524eb94301db8e3a93ff042/design-a-catchy-logo-for-your-brand.png",
+            "image": "A2.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001730010",
+            "name": "studio_yotam_b",
+            "description": "A Brand Book is a corporate identity manual that helps us define the elements of brand identity in a concise way. Is a set of rules that explain how your brand works.",
+            "price": 575.81,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/151120415/original/6fbd49b002583fc50540a03591a3a4b7447a1be5/design-your-brand-style-guides.jpg",
+            "image": "A3.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "nadia_percan",
+            "description": "Brand style guide takes the heart and soul of your brand and translates it into design. In order to communicate your brand to the world, you need to tell a good, coherent and consistent story - the brand style guide is the essential tool to tell this kind of story.",
+            "price": 1872,
+            "category": 2,
+            "rating": 5,
+            "image_url": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/143882823/original/866f5174e6f25622a74bbedfde65e877b3c8df53/design-your-brand-style-guides.png",
+            "image": "A4.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002111605",
+            "name": "Laszloede",
+            "description": "I mainly do environment concepts and world building, but if you are not sure about your project fitting under these categories feel free to send me a message.",
+            "price": 287.90,
+            "category": 3,
+            "rating": 5,
+            "image_url": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/55508534/original/c1ad5e548b867e26092ab4d77989137c90951dfc/draw-landscapes-in-photoshop-or-traditionally.jpg",
+            "image": "A5.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002260206",
+            "name": "helen__grace",
+            "description": "Prices will depend on your brief request so please send a message and let me know your request, I will inform you the price. If you accept my price, i will create an offer and start working after you confirm my offer.",
+            "price": 239.99,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/171623363/original/597276bfafd45d7cc670d932d253c1cb1312d6b0/do-illustration-concept-art-manga-real-semi-style.jpg",
+            "image": "A6.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "tvmteam",
+            "description": "Unique & Custom Made Designs without any Cheesy icons",
+            "price": 4.82,
+            "category": 4,
+            "rating": 4.9,
+            "image_url": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/172269894/original/497fcde0baea742f7e6f7732fe17c5f4515e26db/craft-professional-twitch-logo-screens-overlays-within-24-hours.png",
+            "image": "A7.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002601115",
+            "name": "zohalb78611",
+            "description": "Hi, I will do professional mobile app UI design for your android or IOS application. I will design a unique, professional, modern and clean UI design for your application. I am a professional graphic and UI designer with over 3+ years of experience and have worked with hundreds of clients that are fully satisfied by my services.",
+            "price": 14.99,
+            "category": 5,
+            "rating": 4.5,
+            "image_url":"https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/138952642/original/760e8c57e47f53cc56c2568034cbb5c87e8377d8/do-mobile-app-ui-design.png",
+            "image": "A8.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002690715",
+            "name": "twto_tv",
+            "description":"I have been a professional graphics designer for over Five years. In that time, I have made over 4000+ YT and other social media banners and worked with many huge/well known professional YouTubers.",
+            "price": 19.99,
+            "category": 6,
+            "rating": 4.7,
+            "image_url": "https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/37974025/original/5a079c3751a8a840722ac14eaed27e1ef42ac3cc.jpg",
+            "image": "A9.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002701115",
+            "name": "expertspanel",
+            "description":"In this gig, we will create you a nice professional HTML Email Newsletter design for your business, which will be SEO ready. You can use this newsletter as a template with any of your future emails/campaigns",
+            "price": 47.98,
+            "category": 7,
+            "rating": 4.8,
+            "image_url": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/107732488/original/37ca91f7a824a50d8ea7a2ec353ccfb83976b7f4/do-a-professional-email-newsletter-design.png",
+            "image": "A10.jpg"
+        }
     }
-  }
 ]

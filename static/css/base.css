@@ -132,6 +132,10 @@ body {
 	z-index: -1;
 }
 
+.card-img-top-small {
+    width: 288px;
+    height: 160px;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
