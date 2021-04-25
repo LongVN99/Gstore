@@ -1,7 +1,7 @@
 <p id="top"></p>
 
 # Gstore
-## Code Institute: Milestone Project 4 - Jamie Rolls
+## Code Institute: Milestone Project 4 - Nguyen Truong Thai Long
 
 [View live deployment of site here]()
 
