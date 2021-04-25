@@ -17,8 +17,8 @@
                 Logo &amp; Brand Identity
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="graphics-link">
-                <a href="" class="dropdown-item">Logo Design</a>
-                <a href="" class="dropdown-item">Brand Style</a>
+                <a href="{% url 'products' %}?category=logo_design" class="dropdown-item">Logo Design</a>
+                <a href="{% url 'products' %}?category=brand_style" class="dropdown-item">Brand Style</a>
 
             </div>
         </li>
@@ -28,8 +28,8 @@
                 Gaming
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Game Art</a>
-                <a href="" class="dropdown-item">Graphics for Streamers</a>
+                <a href="{% url 'products' %}?category=game_art" class="dropdown-item">Game Art</a>
+                <a href="{% url 'products' %}?category=graphics_streamers" class="dropdown-item">Graphics for Streamers</a>
             </div>
         </li>
 
@@ -38,9 +38,9 @@
                 Web &amp; Mobiles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Web & Mobile Design</a>
-                <a href="" class="dropdown-item">Social Media Design</a>
-                <a href="" class="dropdown-item">Email Design</a>
+                <a href="{% url 'products' %}?category=web_mobile_design" class="dropdown-item">Web & Mobile Design</a>
+                <a href="{% url 'products' %}?category=social_media_design" class="dropdown-item">Social Media Design</a>
+                <a href="{% url 'products' %}?category=email_design" class="dropdown-item">Email Design</a>
             </div>
         </li>
 
