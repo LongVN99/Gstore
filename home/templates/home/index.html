@@ -2,34 +2,38 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 
 {% block content %}
-    <div class="dark-box"></div>
-    <center>
+<div class="hero"></div>
+<div class="dark-box"></div>
+<center>
+    <div class="home-content">
         <div class="container h-100">
             <div class="row h-100">
-                <div class="col-7 col-md-6 my-auto">
-                    <div class="light-box">
-                        <h1 class="display-4 logo-font text-black">
-                            Gstore
-                        </h1>
-                        <h2 class="text-black">
-                            Multiple graphic designs are here
-                        </h1>
-                        <div class="my-5">
-                            <h4>
-                                <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                            </h4>
-                        </div>
+                <div class="light-box">
+                    <h1 class="display-4 logo-font text-black mb-3">
+                        Gstore
+                    </h1>
+                    <hr>
+                    <h4 class="text-gray">
+                        Multiple graphic designs are here
+                    </h4>
+                    <br>
+                    <div class="my-5">
+                        <h4>
+                            <a href="{% url 'products' %}"
+                                class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                        </h4>
                     </div>
                 </div>
             </div>
         </div>
-    </center>
+    </div>
+</center>
 {% endblock %}
