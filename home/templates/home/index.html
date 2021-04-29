@@ -10,30 +10,32 @@
 {% endblock %}
 
 {% block content %}
-<div class="hero"></div>
-<div class="dark-box"></div>
-<center>
-    <div class="home-content">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="light-box">
-                    <h1 class="display-4 logo-font text-black mb-3">
-                        Gstore
-                    </h1>
-                    <hr>
-                    <h4 class="text-gray">
-                        Multiple graphic designs are here
-                    </h4>
-                    <br>
-                    <div class="my-5">
-                        <h4>
-                            <a href="{% url 'products' %}"
-                                class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+<section>
+    <div class="hero"></div>
+    <div class="dark-box"></div>
+    <center>
+        <div class="home-content">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="light-box">
+                        <h1 class="display-4 logo-font text-black mb-3">
+                            Gstore
+                        </h1>
+                        <hr>
+                        <h4 class="text-gray">
+                            Multiple graphic designs are here
                         </h4>
+                        <br>
+                        <div class="my-5">
+                            <h4>
+                                <a href="{% url 'products' %}"
+                                    class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                            </h4>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</center>
+    </center>
+</section>
 {% endblock %}

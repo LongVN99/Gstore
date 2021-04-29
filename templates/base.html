@@ -141,12 +141,17 @@
     {% block content %}
     {% endblock %}
 
+    {% block footer%}
+    <footer class="bg-dark">
+        {% include 'includes/footer.html' %} 
+    </footer>
+    {% endblock %}
+
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
 
-    
   </body>
 </html>
