@@ -36,7 +36,7 @@ body {
     height: 100%;
     position: fixed;
     top: 0;
-    left: -25%;
+    left: 0;
     right: 0;
     bottom: 0;
     z-index: 2;
@@ -218,6 +218,11 @@ body {
     position: fixed;
     background: white;
     z-index: -1;
+}
+
+.card-img-top {
+    max-width: 350px;
+    height: 250px;
 }
 
 .card-img-top-small {
