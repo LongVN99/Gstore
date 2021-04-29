@@ -212,8 +212,8 @@ body {
 #special-message-banner {
     z-index: 2;
     position: relative;
-    background-color: rgb(70, 88, 74);
-    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    background-color: #17a2b8;
+    border-bottom: 1px solid #48e7ff;
     padding: 7px;
     padding-bottom: 3px;
 }
