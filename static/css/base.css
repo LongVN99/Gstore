@@ -218,8 +218,8 @@ body {
     padding-bottom: 3px;
 }
 
-.btn-black {
-    background: black;
+.btn-color {
+    background-color: #17a2b8;
     color: white;
 }
 
@@ -231,10 +231,10 @@ body {
 }
 
 
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
+.btn-color:hover,
+.btn-color:active,
+.btn-color:focus {
+    background-color: #17a2b8;
     color: white;
 }
 
@@ -250,8 +250,12 @@ body {
     border: 1px solid black !important;
 }
 
+.border-color {
+    border: 1px solid #17a2b8 !important;
+}
+
 .text-white {
-    color: white !important;
+    color: white;
 }
 
 .bg-dark {
@@ -425,8 +429,8 @@ input[name='q']::placeholder {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #17a2b8;
+    border: 1px solid #17a2b8;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -439,12 +443,12 @@ input[name='q']::placeholder {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {
     color: #fff;
-    background-color: #222;
-    border-color: #222;
+    background-color: #178ea0;
+    border-color: #178ea0;
 }
 
 .allauth-form-inner-content a {
-    color: #17a2b8;
+    color: #17a2b8 !important;
     /* text-info */
 }
 
@@ -514,7 +518,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: gray;
+    background: #17a2b8;
     color: #fafafa;
 }
 
@@ -578,12 +582,12 @@ footer {
     }
 
     .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
+    .btn.btn-color.rounded-0 {
         padding: .375rem .375rem;
     }
 
     .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
+    .btn.btn-color.rounded-0.btn-lg {
         padding: .375rem .375rem;
         font-size: .75rem;
     }
