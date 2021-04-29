@@ -112,12 +112,14 @@ body {
     text-shadow: 2px 2px #969696;
 }
 
+
+/*----------------- About -----------------*/
 .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 10%;
+    padding: 2px;
 }
 
 .about-text p {
@@ -140,8 +142,43 @@ body {
 }
 
 .about-image img {
-    width: 750;
-    height: 480px;
+    width: 35vw;
+    min-height: 250px;
+}
+
+/*--------------- About Reponsive------------*/
+
+@media (max-width: 991px) {
+    .large-margin-top {
+        margin-top: 100px;
+    }
+
+    .about-top-image img {
+        margin-top: -20px;
+    }
+
+    .about-container {
+        margin: 0;
+    }
+
+    .about-text p {
+        font-size: 1.05rem;
+        margin: 10px;
+    }
+
+    .about-image-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .about-image-right {
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 40vw;
+        min-height: 180px;
+    }
 }
 
 .main-logo-link {
