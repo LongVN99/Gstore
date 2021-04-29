@@ -505,6 +505,21 @@ footer {
     margin: 0;
 }
 
+.input-subscribe {
+    min-width: 205px !important;
+}
+
+@media (max-width: 992px) {
+    .input-subscribe {
+        min-width: 225px !important;
+    }
+
+    .btn-subscribe {
+        margin-top: 10px;
+        padding: 15px;
+    }
+}
+
 .social-links li a i {
     width: 30px;
     height: 30px;
@@ -530,10 +545,12 @@ footer {
 
 @media (max-width: 992px) {
     .social-links li a i {
-        width: 35px;
-        height: 35px;
-        line-height: 15px;
+        width: 45px;
+        height: 45px;
+        padding-top: 12px;
         float: none;
+        margin-top: 10px !important;
+        margin-bottom: 5px !important;
     }
 
     .social-links {
