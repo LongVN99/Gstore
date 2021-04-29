@@ -10,20 +10,26 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <div class="light-box">
-                    <h1 class="display-4 logo-font text-black">
-                        New collections are here
-                    </h1>
-                    <div class="my-5">
-                        <h4>
-                            <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                        </h4>
+    <div class="dark-box"></div>
+    <center>
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-7 col-md-6 my-auto">
+                    <div class="light-box">
+                        <h1 class="display-4 logo-font text-black">
+                            Gstore
+                        </h1>
+                        <h2 class="text-black">
+                            Multiple graphic designs are here
+                        </h1>
+                        <div class="my-5">
+                            <h4>
+                                <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
+                            </h4>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </center>
 {% endblock %}

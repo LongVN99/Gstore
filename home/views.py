@@ -32,3 +32,8 @@ def permission_denied(request, *args, **argv):
 
 def bad_request(request, *args, **argv):
     return render(request, 'home/400.html')
+
+def about(request):
+    """A view to return the about page"""
+
+    return render(request, 'home/about.html')
