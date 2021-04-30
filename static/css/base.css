@@ -672,3 +672,11 @@ footer {
     margin-bottom: 20px;
 }
 
+.details-title,
+.reviews-title {
+    margin-top: 50px;
+}
+
+.image-container {
+    text-align: center;
+}
