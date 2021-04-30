@@ -32,8 +32,10 @@
             <h2 class="col-12 details-title">Details</h2>
             <hr>
             <div class="product-details-container mb-5 mt-md-4">
-                <strong>Created by :</strong><p class="mb-2"><i>{{ product.name }}</i></p>
-                <strong>Price :</strong><p class="lead mb-2 text-left font-weight-bold">${{ product.price }}</p>
+                <strong>Created by :</strong>
+                <p class="mb-2"><i>{{ product.name }}</i></p>
+                <strong>Price :</strong>
+                <p class="lead mb-2 text-left font-weight-bold">${{ product.price }}</p>
                 {% if product.category %}
                 <p class="small mt-1 mb-0">
                     <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
@@ -52,7 +54,8 @@
                     <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                 </small>
                 {% endif %}
-                <p class="mt-3"><strong>Description :</strong></p><p class="mt-3">{{ product.description }}</p>
+                <p class="mt-3"><strong>Description :</strong></p>
+                <p class="mt-3">{{ product.description }}</p>
                 <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                     {% csrf_token %}
                     <div class="form-row">
@@ -112,15 +115,15 @@
         </div>
     </div>
     <div class="row">
+        <div class="col-12 reviews-title mb-2">
+            <h2>Reviews</h2>
+            <hr class="w-50">
+        </div>
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-
             <!-- Product Reviews -->
-            <h2 class="col-12 reviews-title">All rating and reviews</h2>
-            <hr>
-
-            <div class="reviews-wrapper">
+            <div class="reviews-wrapper ml-3">
                 {% for review in product.reviews.all %}
-                <div class="notification space-below">
+                <div class="notification space-below mt-3">
                     <p>
                         <strong>Date: </strong>{{ review.date_added|date:"Y-m-d" }},
                         <strong>Stars: </strong>{{ review.stars }}
@@ -136,16 +139,16 @@
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
+            <h4>Write your review</h4>
             <div class="notification space-below">
                 {% if request.user.is_authenticated %}
                 <form method="post" action=".">
                     {% csrf_token %}
 
                     <div class="field">
-                        <label>Stars</label>
-
                         <div class="control">
                             <div class="select">
+                                <label>Rating </label>
                                 <select name="stars">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -153,12 +156,12 @@
                                     <option value="4">4</option>
                                     <option value="5" selected>5</option>
                                 </select>
+                                <i class="far fa-star ml-2 mr-2"></i>
                             </div>
                         </div>
                     </div>
                     <div class="field">
                         <label>Content</label>
-
                         <div class="control">
                             <textarea class="textarea" name="content" placeholder="Give your reviews here"></textarea>
                         </div>

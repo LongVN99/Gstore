@@ -669,14 +669,29 @@ footer {
 
 /* Reviews */
 .notification.space-below {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 
-.details-title,
-.reviews-title {
+.details-title {
     margin-top: 50px;
+}
+
+.reviews-title{
+    text-align: center;
+    margin-top: 10px;
 }
 
 .image-container {
     text-align: center;
+}
+
+.reviews-wrapper {
+    margin: 5px;
+}
+
+.fa-star {
+    background-color: rgb(251, 255, 22);
+    color: black;
+    font-size: 1.1rem;
 }
