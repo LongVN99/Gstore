@@ -666,3 +666,9 @@ footer {
 .fas {
     color: white;
 }
+
+/* Reviews */
+.notification.space-below {
+    margin-bottom: 20px;
+}
+
