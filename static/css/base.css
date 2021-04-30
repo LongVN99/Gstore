@@ -513,18 +513,10 @@ footer {
     margin: 0;
 }
 
-.input-subscribe {
-    min-width: 205px !important;
-}
-
 @media (max-width: 992px) {
-    .input-subscribe {
-        min-width: 225px !important;
-    }
-
     .btn-subscribe {
         margin-top: 10px;
-        padding: 15px;
+        padding: 5px;
     }
 }
 
@@ -564,6 +556,11 @@ footer {
     .social-links {
         text-align: center;
     }
+}
+
+@media (max-width: 992px) {
+.input-group-btn {
+    width: 100%;
 }
 
 /* fixed top navbar only on medium and up */
