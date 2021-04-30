@@ -13,7 +13,7 @@
 ### Search Bar
 
 -   The search bar functions efficiently to help users narrow down their search criteria with a particular keyword.
-![Search - Verified](documentation/testing/search.png) 
+![Search - Verified](documentations/testing/search.png) 
 
 ## Homepage
 
@@ -105,9 +105,9 @@ Keep Shopping, Add to bag, Product Image (opens in new tab - large), Product qua
 * All the pages are responsive on all screen sizes.
 * All Codes passed through their respective Validators to erase syntax error.
 * Footer styled is as I wanted it to be.
-![Iphone - reponsive](documentation/testing/iphone_test.png) 
-![Ipad - reponsive](documentation/testing/Ipad_test.png) 
-![404 error](documentation/testing/404.png) 
+![Iphone - reponsive](documentations/testing/iphone_test.png) 
+![Ipad - reponsive](documentations/testing/Ipad_test.png) 
+![404 error](documentations/testing/404.png) 
 
 ## Bugs
 

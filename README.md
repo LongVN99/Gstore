@@ -3,7 +3,7 @@
 # Gstore
 ## Code Institute: Milestone Project 4 - Nguyen Truong Thai Long
 
-[View live deployment of site here]()
+[View live deployment of site here](https://gstore-ms4.herokuapp.com/)
 
 ![responsive]()
 
@@ -42,7 +42,7 @@ Build a full-stack site based around business logic used to control a centrally-
 Required Technologies : 
 * HTML, CSS, JavaScript, Django + Django
 * Relational database (MySQL or Postgres)
-* Stripe Payments - Test card details can be found [HERE](#test-card)
+* Stripe Payments - Test card details can be found [HERE](documentations/testing/stripe.png)
 
 Optional: Include use of additional libraries and external APIs.
 
