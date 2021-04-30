@@ -101,7 +101,7 @@ body {
 }
 
 .float-left {
-    float:left;
+    float: left;
 }
 
 .color-black {
@@ -714,4 +714,8 @@ footer {
     padding: 10px;
     width: 150px;
     border: none;
+}
+
+.reduced-img-size img {
+    max-width: 120px !important;
 }
