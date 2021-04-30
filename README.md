@@ -5,10 +5,7 @@
 
 [View live deployment of site here](https://gstore-ms4.herokuapp.com/)
 
-![responsive]()
-
-Marshal Unisex Collectibles is an E-Commerce website for wrist watch brands. Majority of consumers now use online and digital channels to research prices or find product information. Whatever your interest, we tell your time in an extraordinary digital experience!
-Moreso the site provides the necessary modern functionalities for the shop owner to manage vital content for products and services.
+Gstore is an E-Commerce website for graphic designs. Gstore with an outstanding and stylish layouts with clear and concise messaging and effective use of white space have a higher chance of capturing the viewer’s eye and resonate users.
 
 # Table of Contents
 
