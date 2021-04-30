@@ -1,7 +1,9 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Join
+from .models import SubscribeUser
 
+class SubscribeAdmin(admin.ModelAdmin):
+    list_display = ('email', 'date_time')
 
-admin.site.register(Join)
+admin.site.register(SubscribeUser, SubscribeAdmin)
