@@ -207,6 +207,8 @@ Account owners can access the following features:
 
 # Testing
 
+Throughout the development process of this project, Chrome DevTools was used for testing variations and simulation of mobile devices.
+All-testing has been documented here-  [TESTING.md](TESTING.md)
 
 # Deployment
 
@@ -273,6 +275,19 @@ To setup Automatic Deployment from GitHub:
 
 ## Media
 
-## Acknowledgements
+* Most of my image are taken from [fiverr](https://www.fiverr.com/pro/categories/graphics-design?source=category_tree)
+* Some media are taken from Google
 
+## Acknowledgements
+### Sites used for information and support
+
+* [W3schools](https://www.w3schools.com/)
+* [JQuery Documentation](https://api.jquery.com/)
+* [Bootstrap Documentation](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+* [JS Commenting](https://jsdoc.app/about-getting-started.html)
+* [Python Documentation](https://docs.python.org/3/)
+* [Django Documentation](https://docs.djangoproject.com/en/3.2/)
+
+### I received advice and support from
+   * Special thanks to my mentor Oluwafemi Medale for his support and clear guidance throughout this project.
 <div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>
