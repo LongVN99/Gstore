@@ -81,31 +81,26 @@ The application was structured using bootstrap to maintain wide browser compatib
 | **As a shopper or site user I would like to**             | **So that I can**                                       |
 | --------------------------------------------------------- | ------------------------------------------------------- |
 | **Viewing and Navigation**                                             			                                  |
-| --------------------------------------------------------- | ------------------------------------------------------- |
 | Navigate throughout the site with ease                    | Find product to purchase in an organised format         |
 | Learn more about the business and services offered	    | Understand how I can list on the site                   |
 | View my current bag total                                 | Identify total cost of purchase and review items chosen |
 | View each product as a single unit                        | Ascertain detailed content of a particular product      |
 | --------------------------------------------------------- | ------------------------------------------------------- |
 | **Registration and User Accounts**                               			                                          |
-| --------------------------------------------------------- | ------------------------------------------------------- |
 | Create my own account                                     | Have my profile with the option to login and logout     |
 | Be able to reset or recover my password                   | Retain my personal account                              |
 | Create my personal profile or update it                   | Save my information for future delivery and easy entry  |
 | --------------------------------------------------------- | ------------------------------------------------------- |
 | **Sorting and Searching**			                                  			                                      |
-| --------------------------------------------------------- | ------------------------------------------------------- |
 | Sort products by category, name, price or rating          | Make an informed decision before transaction            |
 | Search the site quickly                                   | Locate a particular product of interest                 |
 | Receive a post email confirmation about my order          | Be assured and have records of my transactions          |
 | --------------------------------------------------------- | ------------------------------------------------------- |
 | **Shopping as a registered user**			                                  			                              |
-| --------------------------------------------------------- | ------------------------------------------------------- |
 | Be able to add/remove or edit products in my bag          | Regulate my orders and checkout                         |
 | Ensure secure transactions                                | Be convinced about my payment                           |
 | --------------------------------------------------------- | ------------------------------------------------------- |
 | **Features**			                                  			                                                  |
-| --------------------------------------------------------- | ------------------------------------------------------- |
 | See other reviews about product                           | Learn more about product                                |
 | Write a review (must log in)                              | Let prospective users know how I feel about the product |
 
