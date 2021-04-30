@@ -1,133 +1,133 @@
 {% extends "base.html" %}
 {% load static %}
 {% block page_header %}
-<div class="container header-container">
-    <div class="row">
-        <div class="col"></div>
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
     </div>
-</div>
 {% endblock %}
 {% block content %}
-<div class="row">
-    <div class="col mt-5">
-        <h2 class="logo-font text-black text-center">Frequently Asked Questions</h2>
-        <hr class="w-50 mb-1">
+    <div class="row">
+        <div class="col mt-5">
+            <h2 class="logo-font text-black text-center">Frequently Asked Questions</h2>
+            <hr class="w-50 mb-1">
+        </div>
     </div>
-</div>
-<div class="container">
-    <div class="row mt-4 text-black">
-        <div class="text-left">
-            <!--General questions-->
-            <div>
-                <h3 class="faqHeader">General questions</h3>
+    <div class="container">
+        <div class="row mt-4 text-black">
+            <div class="text-left">
+                <!--General questions-->
+                <div>
+                    <h3 class="faqHeader">General questions</h3>
 
-                <div class="q-a-content">
-                    <div class="question" id="question-1">
-                        <a>Is account registration required?</a>
-                        <a href="#" id="icon-1">
-                            <i class="fa-plus fas ml-2 float-right">
-                                <span class="sr-only">Expand</span>
-                            </i>
-                        </a>
+                    <div class="q-a-content">
+                        <div class="question" id="question-1">
+                            <a>Is account registration required?</a>
+                            <a href="#" id="icon-1">
+                                <i class="fa-plus fas ml-2 float-right">
+                                    <span class="sr-only">Expand</span>
+                                </i>
+                            </a>
+                        </div>
+                        <div class="answer p-4" id="answer-1">
+                            <p>Account registration at Gstore is only required if you will be selling or buying
+                                products.
+                                This ensures a valid communication channel for all parties involved in any transactions.</p>
+                        </div>
                     </div>
-                    <div class="answer p-4" id="answer-1">
-                        <p>Account registration at Gstore is only required if you will be selling or buying
-                            products.
-                            This ensures a valid communication channel for all parties involved in any transactions.</p>
+
+                    <div class="q-a-content">
+                        <div class="question" id="question-2">
+                            <a>What is the currency used for all transactions?</a>
+                            <a href="#" id="icon-2">
+                                <i class="fa-plus fas ml-2 float-right">
+                                    <span class="sr-only">Expand</span>
+                                </i>
+                            </a>
+                        </div>
+                        <div class="answer p-4" id="answer-2">
+                            <p>All prices for products in Gstore including each seller's or buyer's account balance are in
+                                USD</p>
+                        </div>
+                    </div>
+
+                    <div class="q-a-content">
+                        <div class="question" id="question-3">
+                            <a>Is there any offer?</a>
+                            <a href="#" id="icon-3">
+                                <i class="fa-plus fas ml-2 float-right">
+                                    <span class="sr-only">Expand</span>
+                                </i>
+                            </a>
+                        </div>
+                        <div class="answer p-4" id="answer-3">
+                            <p>All transactions above 50$ can obtain a free delivery</p>
+                        </div>
+                    </div>
+                    <div class="q-a-content">
+                        <div class="question" id="question-5">
+                            <a>How to sign in / sign up?</a>
+                            <a href="#" id="icon-5">
+                                <i class="fa-plus fas ml-2 float-right">
+                                    <span class="sr-only">Expand</span>
+                                </i>
+                            </a>
+                        </div>
+
+                        <div class="answer p-5" id="answer-5">
+                            The steps involved in this process are really simple. All you need to do is:
+                            <ul>
+                                <li>Click on the account icon</li>
+                                <li>Click <strong>Register</strong> to sign up a new account or click <strong>Log
+                                        in</strong> if
+                                    you already have an account</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <div class="q-a-content">
-                    <div class="question" id="question-2">
-                        <a>What is the currency used for all transactions?</a>
-                        <a href="#" id="icon-2">
-                            <i class="fa-plus fas ml-2 float-right">
-                                <span class="sr-only">Expand</span>
-                            </i>
-                        </a>
-                    </div>
-                    <div class="answer p-4" id="answer-2">
-                        <p>All prices for products in Gstore including each seller's or buyer's account balance are in
-                            USD</p>
+                <!--Sellers-->
+                <div>
+                    <h3 class="faqHeader">Sellers</h3>
+                    <div class="q-a-content">
+                        <div class="question" id="question-4">
+                            <a>Who can sell items?</a>
+                            <a href="#" id="icon-4">
+                                <i class="fa-plus fas ml-2 float-right">
+                                    <span class="sr-only">Expand</span>
+                                </i>
+                            </a>
+                        </div>
+                        <div class="answer p-4" id="answer-4">
+                            <p>Only administration account is able to add, edit or delete products from Gtore</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="q-a-content">
-                    <div class="question" id="question-3">
-                        <a>Is there any offer?</a>
-                        <a href="#" id="icon-3">
-                            <i class="fa-plus fas ml-2 float-right">
-                                <span class="sr-only">Expand</span>
-                            </i>
-                        </a>
-                    </div>
-                    <div class="answer p-4" id="answer-3">
-                        <p>All transactions above 50$ can obtain a free delivery</p>
-                    </div>
-                </div>
-                <div class="q-a-content">
-                    <div class="question" id="question-5">
-                        <a>How to sign in / sign up?</a>
-                        <a href="#" id="icon-5">
-                            <i class="fa-plus fas ml-2 float-right">
-                                <span class="sr-only">Expand</span>
-                            </i>
-                        </a>
-                    </div>
-
-                    <div class="answer p-5" id="answer-5">
-                        The steps involved in this process are really simple. All you need to do is:
-                        <ul>
-                            <li>Click on the account icon</li>
-                            <li>Click <strong>Register</strong> to sign up a new account or click <strong>Log
-                                    in</strong> if
-                                you already have an account</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!--Sellers-->
-            <div>
-                <h3 class="faqHeader">Sellers</h3>
-                <div class="q-a-content">
-                    <div class="question" id="question-4">
-                        <a>Who can sell items?</a>
-                        <a href="#" id="icon-4">
-                            <i class="fa-plus fas ml-2 float-right">
-                                <span class="sr-only">Expand</span>
-                            </i>
-                        </a>
-                    </div>
-                    <div class="answer p-4" id="answer-4">
-                        <p>Only administration account is able to add, edit or delete products from Gtore</p>
-                    </div>
-                </div>
-            </div>
-
-            <!--Buyers-->
-            <div class="mb-5">
-                <h3 class="faqHeader">Buyers</h3>
-                <div class="q-a-content">
-                    <div class="question" id="question-6">
-                        <a>I want to buy a product - what are the steps?</a>
-                        <a href="#" id="icon-6">
-                            <i class="fa-plus fas ml-2 float-right">
-                                <span class="sr-only">Expand</span>
-                            </i>
-                        </a>
-                    </div>
-                    <div class="answer p-6" id="answer-6">
-                        <p>Buying a product on Gstore is really simple. Each design has a live preview. Once you have
-                            selected a graphic design, which is to your liking, you can quickly and securely pay via
-                            Paypal.
-                            Once the transaction is complete, you gain full access to the purchased product.</p>
+                <!--Buyers-->
+                <div class="mb-5">
+                    <h3 class="faqHeader">Buyers</h3>
+                    <div class="q-a-content">
+                        <div class="question" id="question-6">
+                            <a>I want to buy a product - what are the steps?</a>
+                            <a href="#" id="icon-6">
+                                <i class="fa-plus fas ml-2 float-right">
+                                    <span class="sr-only">Expand</span>
+                                </i>
+                            </a>
+                        </div>
+                        <div class="answer p-6" id="answer-6">
+                            <p>Buying a product on Gstore is really simple. Each design has a live preview. Once you have
+                                selected a graphic design, which is to your liking, you can quickly and securely pay via
+                                Paypal.
+                                Once the transaction is complete, you gain full access to the purchased product.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 {% endblock %}
 {% block postloadjs %}
 {{ block.super }}

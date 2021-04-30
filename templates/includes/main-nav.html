@@ -1,12 +1,13 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item d-block d-lg-none">
+        <li class="nav-item d-block">
             <a class="logo-font font-weight-bold nav-link text-white mr-5" href="{% url 'home' %}" id="home-link">
                 Home
             </a>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
@@ -18,39 +19,47 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="clothing-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Logo &amp; Brand Identity
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="graphics-link">
                 <a href="{% url 'products' %}?category=logo_design" class="dropdown-item">Logo Design</a>
                 <a href="{% url 'products' %}?category=brand_style" class="dropdown-item">Brand Style</a>
-                <a href="{% url 'products' %}?category=brand_style,logo_design" class="dropdown-item">All Brand &amp; Logo</a>
+                <a href="{% url 'products' %}?category=brand_style,logo_design" class="dropdown-item">All Brand &amp;
+                    Logo</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="homeware-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Gaming
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
                 <a href="{% url 'products' %}?category=game_art" class="dropdown-item">Game Art</a>
-                <a href="{% url 'products' %}?category=graphics_streamers" class="dropdown-item">Graphics for Streamers</a>
+                <a href="{% url 'products' %}?category=graphics_streamers" class="dropdown-item">Graphics for
+                    Streamers</a>
                 <a href="{% url 'products' %}?category=graphics_streamers,game_art" class="dropdown-item">All Gaming</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white" href="#" id="specials-link" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 Web &amp; Mobiles
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=web_mobile_design" class="dropdown-item">Web &amp; Mobile Design</a>
-                <a href="{% url 'products' %}?category=social_media_design" class="dropdown-item">Social Media Design</a>
+                <a href="{% url 'products' %}?category=web_mobile_design" class="dropdown-item">Web &amp; Mobile
+                    Design</a>
+                <a href="{% url 'products' %}?category=social_media_design" class="dropdown-item">Social Media
+                    Design</a>
                 <a href="{% url 'products' %}?category=email_design" class="dropdown-item">Email Design</a>
-                <a href="{% url 'products' %}?category=email_design,social_media_design,web_mobile_design" class="dropdown-item">All Web &amp; Mobile Design</a>
+                <a href="{% url 'products' %}?category=email_design,social_media_design,web_mobile_design"
+                    class="dropdown-item">All Web &amp; Mobile Design</a>
             </div>
         </li>
-        
+
         <li class="nav-item">
             <a class="logo-font font-weight-bold nav-link text-white" href="{% url 'about' %}" id="specials-link">
                 About us
@@ -61,6 +70,6 @@
             <a class="logo-font font-weight-bold nav-link text-white" href="{% url 'faq' %}" id="specials-link">
                 FAQ
             </a>
-        </li>        
+        </li>
     </ul>
 </div>
