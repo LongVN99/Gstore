@@ -127,8 +127,8 @@ The skeletal framework of this website was designed using [Figma](https://www.fi
 
 Links to final version of the wireframes can be found below:
 
-* [Desktop Final Version]()
-* [Mobile Final Version]()
+* [Desktop Final Version](https://github.com/LongVN99/Gstore/blob/55f4145f12bc09c93252c37529b5ea6022f944df/mockups/desktop)
+* [Mobile Final Version](https://github.com/LongVN99/Gstore/blob/55f4145f12bc09c93252c37529b5ea6022f944df/mockups/mobile)
 
 
 ## Database Schema
