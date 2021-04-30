@@ -100,6 +100,10 @@ body {
     float: right;
 }
 
+.color-black {
+    color: black;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -482,6 +486,10 @@ input[name='q']::placeholder {
     margin-top: 180px;
 }
 
+.small-margin-top {
+    margin-top: 50px;
+}
+
 @media (min-width: 992px) {
     .large-margin-top {
         margin-top: 135px;
@@ -662,8 +670,8 @@ footer {
     min-width: 80vw;
 }
 
-.fa-plus,
-.fas {
+.question .fa-plus,
+.question .fas {
     color: white;
 }
 
@@ -691,7 +699,18 @@ footer {
 }
 
 .fa-star {
-    background-color: rgb(251, 255, 22);
     color: black;
     font-size: 1.1rem;
 }
+
+.textarea {
+    width: 80%;
+    min-height: 150px;
+}
+
+.control .button {
+    padding: 10px;
+    width: 150px;
+    border: none;
+}
+
