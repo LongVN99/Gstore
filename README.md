@@ -211,7 +211,9 @@ Account owners can access the following features:
 # Deployment
 
 ## GitPod
-* The site was developed in GitPod and pushed to the following remote GitHub repository - [REPO](https://github.com/jamie120/ms4-wild-mile) -->
+
+### GitPod
+* The site was developed in GitPod and pushed to the following remote GitHub repository - [REPO](https://github.com/LongVN99/Gstore) -->
     * The following GIT commands were used throughout deployment:
         * **git status** ------ used to check the status of files and any changes made / untracked.
         * **git add**   ------ to stage files ready to commit.
@@ -220,20 +222,26 @@ Account owners can access the following features:
 
 ## Deployment to Heroku
 
-* This site is hosted using Heroku, deployed directly from the master branch via GitHub. - [LIVE SITE]() -->
+* This site is hosted using Heroku, deployed directly from the master branch via GitHub. - [LIVE SITE](https://gstore-ms4.herokuapp.com/) -->
     * The following steps were taken to complete the hosting process.
        
-    1. Set **_debug=False_** in the app.py file.
-    2. Created a requirements.txt file from the terminal, using **_pip3 freeze --local > requirements.txt_**, to allow Heroku to detect this project as a python app and any required package dependencies.
-    3. Created a Procfile using **_echo web: python app.py > Procfile_** from the Gitpod terminal so Heroku would be informed on which file runs the app and how to run this project.
-
-    -   Add the following configuration variables to the application:
+1.   Navigated to Heroku.com in web browser. Once there, Login or Sign Up for a new account.
+1.   Choose 'Python' as Primary Development Language.
+1.   Select "Create new app" from the Heroku dashboard.
+1.   Fill in the unique app name on the form and select corresponding region, then click on "Create app"
+1.   From the heroku dashboard of your application, click on "Deploy", then "Deployment method" and select GitHub to connect the application to your github repository
+1.   Click on Heroku Resources tab and navigate to Add1.ons section to provision a new Postgres database for it.
+1.   Search in the Add1.ons search bar for Heroku Postgres.
+1.   Select your Development plan (in my case 1. Hobby Dev Plan).
+1.   Upon establishing a link to the postgres database, click on the "settings" tab and on the button labelled "Reveal Config Vars".
+1.   Add the following configuration variables to the application:
 
     | **VARIABLE**          | **VALUE**                                                          |
     | --------------------- | ------------------------------------------------------------------ |
     | AWS_ACCESS_KEY_ID     | The key provided by AWS                                            |
     | AWS_SECRET_ACCESS_KEY | The secret key provided by AWS for authentication                  |
     | DATABASE_URL          | Postgres Database url provided by the Add-ons                      |
+    | DEVELOPMENT           | True                   |
     | EMAIL_HOST_PASSWORD   | Password for designated E-mail address                             |
     | EMAIL_HOST_USER       | The E-mail address used to authenticate to the SMTP server         |
     | SECRET_KEY            | Your Django secret key                                             |
@@ -241,6 +249,8 @@ Account owners can access the following features:
     | STRIPE_SECRET_KEY     | backend secret key provided by Stripe                              |
     | STRIPE_WH_SECRET      | The webhook secret provided by Stripe                              |
     | USE_AWS               | True                                                               |
+
+The site is now successfully deployed after finishing these step. You can click Open App to view the site.
 
 ### Setting-up Automatic Deployment from GitHub
 
