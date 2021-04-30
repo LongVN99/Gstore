@@ -1,12 +1,12 @@
 from django.shortcuts import render
-
+from django.contrib import messages
 from .models import SubscribeUser
 from .forms import SubscribeUserSignUpForm
+
 # Create your views here.
 
-def view_subscribe(request):
+def subscribe(request):
     """ A view that renders the bag contents page """
-
     return render(request, 'subscribe/subscribe.html')
 
 def subscibe_signup(request):
@@ -21,4 +21,5 @@ def subscibe_signup(request):
     context = {
         'form': form,
     }
-    return render(request, context)
+    template = 'subscribe/subscribe.html'
+    return render(request, template, context)
