@@ -17,7 +17,12 @@ Gstore is an E-Commerce website for graphic designs. Gstore with an outstanding 
     - [Wireframes](#wireframes)
     - [Database Schema](#database-schema)
 - [Features](#features)
-    - [Existing Features](#existing-features)
+    - [Home page](#home-page)
+    - [User account](#user-account)
+    - [Shopping Bag](#shopping-bag)
+    - [Search bar](#search-bar)
+    - [Check out](#check-out)
+    - [Administrator features](#administrator-features)
 - [Technologies Used](#technologies-used)
     - [Languages](#languages)
     - [Tools and Libraries](#tools-and-libraries)
@@ -135,6 +140,7 @@ The simplify database schema of my custom database:
 # Features
 
 ### Home Page
+Its purpose is to pique a user's interest, to concisely explain the application.
 
 ### User Account
 
@@ -169,6 +175,7 @@ Account owners can access the following features:
 -   The administrator has the sole right to product management section
 -   An administrator can edit or delete a product to get users updated and engaged.
 
+## Features to Implement in the Future
 
 # Technologies Used
 
