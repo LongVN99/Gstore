@@ -179,8 +179,6 @@ Account owners can access the following features:
 
 # Technologies Used
 
-## Languages
-
 * [HTML5:](https://www.w3schools.com/html/default.asp)
     - HTML5 was used to code the content of the website.
 * [CSS:](https://www.w3schools.com/css/default.asp)
@@ -189,8 +187,29 @@ Account owners can access the following features:
     - JavaScript was used to style the significant interactive functionality.
 * [Python:](https://www.w3schools.com/python/default.asp)
     - Python was used for the project back-end functions.
+* [Bootstrap](https://getbootstrap.com/) 
+    - Template used to ensure site is responsive as well as for styling objects as a base for own CSS.
+* [Figma](https://www.figma.com/) 
+    - To create wireframes, logo, favicon and the colour chart for README.
+* [jQuery](https://jquery.com/)
+    - jQuery library was used to simplify the JavaScript and easier manipulation of DOM.
+* [MongoDB](https://www.mongodb.com/) 
+    - Collection of Python libs that enables rapid development of secure and maintainable websites was used efficiently to create a quality Web application.
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/) 
+    - To create a flask app in Python that is backed by MongoDB and allows for routing to be coded for the different pages and functions of the web app.
+* [Werkzeug](https://pypi.org/project/Werkzeug/) 
+    - To debug code when an error is highlighted, also for password hashing as a security helper.
+* [Werkzeug](https://pypi.org/project/Werkzeug/) 
+    - To debug code when an error is highlighted, also for password hashing as a security helper.
+* [Gunicorn:](https://pypi.org/project/gunicorn/) 
+    - Gunicorn is a pure-Python HTTP server for WSGI applications which allows to run any Python application concurrently by running multiple Python processes within a single dyno.
+* [Pymongo](https://pypi.org/project/pymongo/) 
+    - To simplify the communications between the flask app and the Mongo database.
+* [GitHub](https://github.com/) 
+    - To store the project once pushed from Gitpod.
+* [Git](https://git-scm.com/) 
+    - For Version control by using the Gitpod terminal to add, commit and push the code to GitHub.
 
-## Tools and Libraries
 
 **External Hosting:**
 * [GitHub:](https://github.com/)
