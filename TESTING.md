@@ -114,3 +114,6 @@ Keep Shopping, Add to bag, Product Image (opens in new tab - large), Product qua
 ### Fixed
 
 * The static file is not update automatically, I have to reinstall the latest update to AWS.
+* Overflow in horizontal due to bootstrap row, I have to remove some prebuilt style.
+* Button back to top is not well displayed in footer because of its dark color, I have to change to the light color but still keeping the web consistency.
+* Fixed duplicated ID, some ID are duplicated because there are another html page for mobile. I have to change the one on mobile to *-mobile to distinguish.
