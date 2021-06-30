@@ -260,6 +260,10 @@ body {
     color: gray !important;
 }
 
+.text-color {
+    color: #17a2b8 !important;
+}
+
 .border-black {
     border: 1px solid black !important;
 }
