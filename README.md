@@ -185,9 +185,6 @@ Account owners can access the following features:
 
 ## Tools and Libraries
 
-
-
-
 **External Hosting:**
 * [GitHub:](https://github.com/)
     - The project used the GitHub hosting service to save the project in a repository. 
@@ -195,7 +192,6 @@ Account owners can access the following features:
     - Heroku platform was used to deploy, manage, and scale the app. 
 
 **Databases:**
-
 
 # Testing
 
@@ -258,6 +254,18 @@ To setup Automatic Deployment from GitHub:
 -   Selected branch and clicked Deploy Branch button.
 -   Once it's done, you'll see "Your App was successfully deployed!!!.
 -   Click "View" to launch the new app. The deployed site is now available.
+
+## Local Deployment
+
+-    On the GitHub Repository, click on the '↓ Code' button.
+-    Copy the link to clone the repository using the HTTPS tab.
+-    In your preferred IDE CLI, navigate to the directory you would like to clone to.
+-    Type git clone followed by the URL you copied from step 3 and press enter.
+-    Once cloned, all files from workspace will be visible.
+-    You will need to create an env.py that had previously been added to the .gitignore file.
+-    To test type python3 app.py into the CLI and open the 8080 port.
+-    Finally using git you can push this to your own GitHub repository.
+
 
 # Credits
 
