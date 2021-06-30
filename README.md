@@ -283,13 +283,26 @@ To setup Automatic Deployment from GitHub:
 
 ## Local Deployment
 
--    On the GitHub Repository, click on the '↓ Code' button.
--    Copy the link to clone the repository using the HTTPS tab.
--    In your preferred IDE CLI, navigate to the directory you would like to clone to.
--    Type git clone followed by the URL you copied from step 3 and press enter.
--    Once cloned, all files from workspace will be visible.
--    You will need to create an env.py that had previously been added to the .gitignore file.
--    To test type python3 app.py into the CLI and open the 8080 port.
+-   On the GitHub Repository, click on the `↓ Code` button.
+-   Copy the link to clone the repository using the HTTPS tab.
+-   In your preferred IDE CLI, navigate to the directory you would like to clone to.
+-   Type git clone followed by the URL you copied from step 3 and press enter.
+-   Once cloned, all files from workspace will be visible.
+-   You will need to create an `env.py` that had previously been added to the `.gitignore` file.
+-   Then access the folder in your terminal window and install the application requirements using the following command:`pip3 install -r requirements.txt`
+-   To test type the following command into the CLI and open the 8080 port: `python3 manage.py runserver`
+-   Make all migrations:
+    ```
+    python3 manage.py makemigrations --dry-run
+    python3 manage.py makemigrations
+    python3 manage.py migrate --plan
+    python3 manage.py migrate
+    ```
+-   Load data using fixtures:
+    ```
+    python3 manage.py loaddata products
+    python3 manage.py loaddata categoriess
+    ```
 -    Finally using git you can push this to your own GitHub repository.
 
 
