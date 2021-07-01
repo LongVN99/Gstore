@@ -729,7 +729,3 @@ footer {
 .reduced-img-size img {
     max-width: 120px !important;
 }
-
-dd {
-    margin: 0 !important;
-}

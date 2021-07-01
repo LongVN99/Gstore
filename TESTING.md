@@ -111,6 +111,10 @@ Keep Shopping, Add to bag, Product Image (opens in new tab - large), Product qua
 
 ## Bugs
 
+### Known issues
+* Httml issue - Element marquee not allowed as child of element div in this context. I've tried to put inside the tag dl then dd then dt but it gives the same error so I just keep it inside my div to make sure it has the style I want.
+* Httml issue - The center element is obsolete.     
+
 ### Fixed
 
 * The static file is not update automatically, I have to reinstall the latest update to AWS.
