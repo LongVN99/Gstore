@@ -195,7 +195,14 @@ body {
         width: 40vw;
         min-height: 180px;
     }
+
+    #logo {
+        width: 200px;
+    }
 }
+
+/*---------------End About Reponsive------------*/
+
 
 .main-logo-link {
     width: fit-content;
