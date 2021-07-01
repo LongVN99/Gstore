@@ -127,7 +127,7 @@
                             <strong>Date: </strong>{{ review.date_time|date:"Y-m-d" }},
                             <strong>Stars: </strong>{{ review.stars }}
                         </p>
-                        {{ review.content }}
+                        <strong>{{ review.user }}</strong>: {{ review.content }}
                     </div>
                     {% empty %}
                     <div class="notification space-below">

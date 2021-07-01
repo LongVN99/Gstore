@@ -74,7 +74,7 @@ def product_detail(request, product_id):
             product=product, user=request.user,
             stars=stars, content=content)
 
-        return redirect('product_detail', product_id=product_id, pk=product_id)
+        return redirect(reverse('product_detail', args=[product.id]))
 
     # ------- Add review ------- #
 
