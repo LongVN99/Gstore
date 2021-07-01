@@ -1,5 +1,24 @@
 # Testing
 
+## Testing user stories
+### Testing for Customers
+- Viewing and Navigation -- OK
+    -   Users can see all products in Gstore. Users can see selected products in bag.
+- Registration and User Accounts -- OK
+    -   Users are able to register, log in, log out their account. Users can view their profile.
+- Sorting and Searching -- OK
+    -   Users can filter products and make quick search with the search bar.
+- Other testing :
+    -   Users receive a post email confirmation about their order
+    -   Users are able to leave their reviews and see others reviews about the product
+    -   Log in is require to leave reviews -- OK
+
+### Testing for Shop Administrators
+- Add/Edit/Update product listing when necessary -- OK
+- Delete products -- OK
+- View and Remove users reviews -- OK
+
+
 ## Navigation
 
 -   The navigation link works as expected, each dropdown links to intended page

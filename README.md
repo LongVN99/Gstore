@@ -199,8 +199,6 @@ Account owners can access the following features:
     - To create a flask app in Python that is backed by MongoDB and allows for routing to be coded for the different pages and functions of the web app.
 * [Werkzeug](https://pypi.org/project/Werkzeug/) 
     - To debug code when an error is highlighted, also for password hashing as a security helper.
-* [Werkzeug](https://pypi.org/project/Werkzeug/) 
-    - To debug code when an error is highlighted, also for password hashing as a security helper.
 * [Gunicorn:](https://pypi.org/project/gunicorn/) 
     - Gunicorn is a pure-Python HTTP server for WSGI applications which allows to run any Python application concurrently by running multiple Python processes within a single dyno.
 * [Pymongo](https://pypi.org/project/pymongo/) 
