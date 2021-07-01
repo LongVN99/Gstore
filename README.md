@@ -303,7 +303,11 @@ To setup Automatic Deployment from GitHub:
     python3 manage.py loaddata products
     python3 manage.py loaddata categoriess
     ```
--    Finally using git you can push this to your own GitHub repository.
+-   Create a superuser:
+    ```
+    python3 manage.py createsuperuser
+    ***Enter username, email and password***
+    ```
 
 
 # Credits
