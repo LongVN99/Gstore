@@ -3,14 +3,23 @@
 ## Testing user stories
 ### Testing for Customers
 - Viewing and Navigation -- OK
-    -   Users can see all products in Gstore. Users can see selected products in bag.
+    -   Users can see all products in Gstore. 
+    -   Users can see selected products in bag.
+    -   Users can see information about the web site.
+    -   Users can see a list of questions and answers relating to a particular subject.
 - Registration and User Accounts -- OK
-    -   Users are able to register, log in, log out their account. Users can view their profile.
+    -   Users are able to register, log in, log out their account. 
+    -   Users can view and edit their profile after log in.
+    -   Users can reset or recover account password.
+
 - Sorting and Searching -- OK
-    -   Users can filter products and make quick search with the search bar.
+    -   Products can be sorted by category, name, price or rating
+    -   Users can filter products.
+    -   Users can make quick search with the search bar.
 - Other testing :
-    -   Users receive a post email confirmation about their order
-    -   Users are able to leave their reviews and see others reviews about the product
+    -   Users receive a post email confirmation about their order -- OK
+    -   Users can add/remove or edit products in my bag -- OK
+    -   Users are able to leave their reviews and see others reviews about the product -- OK
     -   Log in is require to leave reviews -- OK
 
 ### Testing for Shop Administrators
@@ -96,7 +105,7 @@ Keep Shopping, Add to bag, Product Image (opens in new tab - large), Product qua
 
 ## Subscribe
 
--   In progress
+-  Used Code Institute templates
 
 ## Administrative Features
 
@@ -131,8 +140,8 @@ Keep Shopping, Add to bag, Product Image (opens in new tab - large), Product qua
 ## Bugs
 
 ### Known issues
-* Httml issue - Element marquee not allowed as child of element div in this context. I've tried to put inside the tag dl then dd then dt but it gives the same error so I just keep it inside my div to make sure it has the style I want.
-* Httml issue - The center element is obsolete.     
+* Httml error - Element marquee not allowed as child of element div in this context. I've tried to put inside the tag dl then dd then dt but it gives the same error so I just keep it inside my div to make sure it has the style I want.
+* Httml error - The center element is obsolete.     
 
 ### Fixed
 
