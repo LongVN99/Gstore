@@ -162,10 +162,10 @@ Account owners can access the following features:
 
 -   The Search functionality is present on all pages to enable users narrow down their search. 
 
-### Checkout
+### Check out
 
--   Checkout allow users to enter their delivery and payment details initially.
--   The checkout details and delivery information are pre-filled with the information provided in the user's profile which can also be edited.
+-   Check out allow users to enter their delivery and payment details initially.
+-   The check out details and delivery information are pre-filled with the information provided in the user's profile which can also be edited.
 -   A summary of the order is populated on the checkout page
 -   Users also have the option to adjust their bag before completion of order
 -   Payment is made by card using [Stripe](https://stripe.com/)
