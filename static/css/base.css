@@ -300,12 +300,7 @@ body {
 }
 
 .card-img-top {
-    max-width: 350px;
-    height: 250px;
-}
-
-.card-img-top-small {
-    width: 288px;
+    max-width: 288px;
     height: 160px;
 }
 
