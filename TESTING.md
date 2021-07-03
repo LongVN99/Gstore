@@ -23,7 +23,7 @@
     -   Log in is require to leave reviews -- OK
 
 ### Testing for Shop Administrators
-- Add/Edit/Update product listing when necessary -- OK
+- Add/Edit/Update product listing when necessary -- OK (however we can not change image - known issues)
 - Delete products -- OK
 - View and Remove users reviews -- OK
 
