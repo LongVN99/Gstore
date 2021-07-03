@@ -24,8 +24,6 @@ Gstore is an E-Commerce website for graphic designs. Gstore with an outstanding 
     - [Check out](#check-out)
     - [Administrator features](#administrator-features)
 - [Technologies Used](#technologies-used)
-    - [Languages](#languages)
-    - [Tools and Libraries](#tools-and-libraries)
 - [Testing](#testing)
 - [Deployment](#deployment)
     - [Deployment to Heroku](#deployment-to-heroku)
