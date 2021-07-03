@@ -141,7 +141,8 @@ Keep Shopping, Add to bag, Product Image (opens in new tab - large), Product qua
 
 ### Known issues
 * Httml error - Element marquee not allowed as child of element div in this context. I've tried to put inside the tag dl then dd then dt but it gives the same error so I just keep it inside my div to make sure it has the style I want.
-* Httml error - The center element is obsolete.     
+* Httml error - The center element is obsolete.
+* 500 error if admin want to select image to add or edit a product. However all function correctly if we don't change the image. (I believe some there are some problems with the widgets but I tried to do the same as shown in the CodeInstitute lesson 'Fixing The Image Field' but the error is not fixed.
 
 ### Fixed
 
